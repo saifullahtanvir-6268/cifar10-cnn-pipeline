@@ -1,0 +1,20 @@
+preprocess:
+  val_size: 0.2
+  seed: 42
+  image_size: 32
+  mean:
+    - 0.4914
+    - 0.4822
+    - 0.4465
+  std:
+    - 0.2470
+    - 0.2435
+    - 0.2616
+
+train:
+  num_filters: 32
+  dropout_rate: 0.3
+  learning_rate: 0.001
+  epochs: 15
+  batch_size: 128
+  seed: 42
