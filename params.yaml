@@ -12,7 +12,7 @@ preprocess:
     - 0.2616
 
 train:
-  num_filters: 32
+  num_filters: 64
   dropout_rate: 0.3
   learning_rate: 0.001
   epochs: 15

@@ -45,6 +45,7 @@ stages:
     params:
       - train.batch_size
     metrics:
-      - metrics.json
+      - metrics.json:
+          cache: false
     outs:
       - models/confusion_matrix.png
