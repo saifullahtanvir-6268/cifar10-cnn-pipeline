@@ -11,3 +11,4 @@ The project uses:
 - DagsHub
 
 The objective is to build a reproducible CNN training pipeline with version-controlled code, data, model artifacts, parameters, and evaluation metrics.
+Project repository prepared for reproducible CIFAR-10 MLOps experiments.
