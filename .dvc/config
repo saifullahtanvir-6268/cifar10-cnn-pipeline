@@ -2,3 +2,6 @@
     remote = dagshub_remote
 ['remote "dagshub_remote"']
     url = https://dagshub.com/saifullah.tanvir/cifar10-cnn-pipeline.dvc
+['remote "dagshub_s3"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/saifullah.tanvir/cifar10-cnn-pipeline.s3
