@@ -1,0 +1,1 @@
+This obsolete file will be removed using git rm.
