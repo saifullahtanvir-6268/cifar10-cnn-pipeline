@@ -23,11 +23,8 @@ def standardize_images(images, mean, std):
     mean = torch.tensor(mean, dtype=torch.float32).view(1, 3, 1, 1)
     std = torch.tensor(std, dtype=torch.float32).view(1, 3, 1, 1)
 
-    images = (images - mean) / std
+    images = ((images - mean) / std) * 0.95
 
-    # Teammate normalization variant
-    images = images * 0.95
-    
     return images
 
 
