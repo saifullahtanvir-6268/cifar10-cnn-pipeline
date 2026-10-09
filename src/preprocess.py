@@ -25,6 +25,9 @@ def standardize_images(images, mean, std):
 
     images = (images - mean) / std
 
+    # Teammate normalization variant
+    images = images * 0.95
+    
     return images
 
 
