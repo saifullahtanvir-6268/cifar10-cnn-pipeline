@@ -23,10 +23,7 @@ def standardize_images(images, mean, std):
     mean = torch.tensor(mean, dtype=torch.float32).view(1, 3, 1, 1)
     std = torch.tensor(std, dtype=torch.float32).view(1, 3, 1, 1)
 
-    images = (images - mean) / std
-    
-    # Main branch normalization variant
-    images = images * 1.05
+    images = ((images - mean) / std) * 1.05
 
     return images
 
